@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crossfit</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;700&family=Montserrat:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><img src="componentes/header-logo-kropp.png.png" alt=""></a>
+      <nav>
+        <a href="#portifolio" data-scroll>PORTIFOLIO</a>
+        <a href="#video" data-scroll>MOTIVATIONAL</a>
+        <a href="#subscribe" data-scroll>SUBSCRIBE</a>
+        <a href="#map-text" data-scroll>LOCATION</a>
+        <a href="#carrossel" data-scroll>PHOTOS</a>
+        <a href="#bmi" data-scroll>BMI</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="text-focus-in">
+          <div class="text-new-event">
+            <img src="componentes/h1-rev-icon-1.png.png" alt="" />
+            <p>NEW EVENT <br />COMING UP / JUNE 7 - 13</p>
+          </div>
+          <h1>CROSSFIT</h1>
+        </div>
+      </section>
+
+      <section id="portifolio">
+        <div class="port-1">
+          <img
+            class="text-focus-in"
+            src="componentes/h1-img-1.jpg.png"
+            alt=""
+          />
+          <div class="port-1-text">
+            <div class="text-sobre">
+              <h3>+ BE YOU, JUST STRONGER! POWER IS IN YOU</h3>
+            </div>
+            <p class="paragrafo">
+              The only competition that matters is against yourself, every day.
+            </p>
+          </div>
+        </div>
+
+        <div class="port-2">
+          <img class="text-focus-in" src="componentes/h1-img-2.jpg.png" alt="" />
+          <div class="port-2-text">
+            <div class="text-sobre">
+              <h3>+ TODAY IS THE BEST DAY TO START!</h3>
+            </div>
+            <p class="paragrafo">
+              Each repetition is a step towards being a stronger version of
+              yourself.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pages">
+        <div class="vetores">
+          <div class="container">
+            <div class="setas">
+              <img src="componentes/Vector.png" alt="" />
+            </div>
+            <img class="logos" src="componentes/Vector (2).png" alt="" />
+            <h3>MAXPUMP</h3>
+          </div>
+
+          <div class="container">
+            <div class="setas">
+              <img src="componentes/Vector.png" alt="" />
+            </div>
+            <img class="logos" src="componentes/Vector (1).png" alt="" />
+            <h3>ARON GYM</h3>
+          </div>
+
+          <div class="container">
+            <div class="setas">
+              <img src="componentes/Vector.png" alt="" />
+            </div>
+            <img class="logos" src="componentes/Vector (3).png" alt="" />
+            <h3>FIT & TONE</h3>
+          </div>
+
+          <div class="container">
+            <div class="setas">
+              <img src="componentes/Vector.png" alt="" />
+            </div>
+            <img class="logos" src="componentes/Vector (4).png" alt="" />
+            <h3>FORZA</h3>
+          </div>
+
+          <div class="container">
+            <div class="setas">
+              <img src="componentes/Vector.png" alt="" />
+            </div>
+            <img class="logos" src="componentes/Vector (5).png" alt="" />
+            <h3>BALANCE FITNESS</h3>
+          </div>
+
+          <div class="container">
+            <div class="setas">
+              <img src="componentes/Vector.png" alt="" />
+            </div>
+            <img class="logos" src="componentes/Vector (6).png" alt="" />
+            <h3>BODY SCULPT</h3>
+          </div>
+        </div>
+      </section>
+
+      <section id="video">
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/1otdObWZEPQ"
+            width="800"
+            height="500"
+            frameborder="0"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="subscribe">
+        <div class="all-sub">
+          <div class="topo-title">
+            <h1>JOIN US <img src="componentes/Vector (7).png" alt="" /></h1>
+          </div>
+          <div class="text-subscribe">
+            <div class="text-sobre-center">
+              <h3>+ START HERE</h3>
+            </div>
+            <p>FILL THE BELOW TO START TOUR JOURNEY</p>
+          </div>
+          <div class="input-sub">
+            <label for=""></label>
+            <input type="text" id="username" required placeholder="Username" />
+
+            <label for=""></label>
+            <input type="email" id="email" required placeholder=" Email" />
+
+            <button class="subscribe" id="mostrarAlerta"><strong>SUBSCRIBE</strong></button>
+
+            <div id="alerta" class="oculto">
+              <span id="fecharAlerta" class="fechar">&times;</span>
+              <p>Your registration was successful!</p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="map-text">
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15353.733019354231!2d-47.9548795!3d-15.8338103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3029eaad68b7%3A0xc4985755bc8593cc!2sPark%20Shopping%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1697220507668!5m2!1spt-BR!2sbr"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="text-map">
+          <div class="text-sobre-map">
+            <h3>+ FIND US NEAR YOU</h3>
+          </div>
+          <p>Victory is sweeter when you fight for it.</p>
+        </div>
+      </section>
+
+      <section id="carrossel">
+        <div class="text-carrossel">
+          <div class="text-sobre-carrossel">
+            <h3>+ EVERYDAY PHOTOS</h3>
+          </div>
+          <p>
+            crossfit is about accepting the challenge, facing the unknown and
+            coming out stronger on the other side.
+          </p>
+        </div>
+        <div class="wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <div class="carrossel">
+            <img src="componentes/carrossel/1.png" alt="Imagem 1" />
+
+            <img
+              src="componentes/carrossel/div.qodef-e-media-image-1.png"
+              alt="Imagem 2"
+            />
+
+            <img
+              src="componentes/carrossel/div.qodef-e-media-image-2.png"
+              alt="Imagem 3"
+            />
+
+            <img
+              src="componentes/carrossel/div.qodef-e-media-image.png"
+              alt="Imagem 4"
+            />
+
+            <img src="componentes/carrossel/h1-img-1.jpg.png" alt="Imagem 4" />
+
+            <img src="componentes/h1-img-2.jpg.png" alt="Imagem 4" />
+
+            <img
+              src="componentes/carrossel/pexels-anete-lusina-16513605.jpg"
+              alt="Imagem 4"
+            />
+
+            <img
+              src="componentes/carrossel/pexels-ivan-samkov-4164512.jpg"
+              alt="Imagem 4"
+            />
+
+            <img
+              src="componentes/carrossel/pexels-ivan-samkov-4164761.jpg"
+              alt="Imagem 4"
+            />
+            <i id="right" class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="bmi">
+        <div class="left-bmi">
+          <div class="text-bmi">
+            <div class="text-sobre-bmi">
+              <h3>+ INPUT YOUR BMI</h3>
+            </div>
+            <p>CALCULATE YOUR BODY MASS HERE</p>
+          </div>
+
+          <div class="calculadorBmi">
+            <label for=""></label>
+            <input id="kg" type="number" placeholder="peso (Kg)" />
+
+            <label for=""></label>
+            <input
+              id="altura"
+              type="number"
+              placeholder="altura (metro e cm)"
+            />
+          </div>
+          <div class="btnCalcular">
+            <button onclick="bmi()" id="btnCalcular">Calculate</button>
+          </div>
+        </div>
+        <div class="circleResultado">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="borda-right">BMI</td>
+                <td>WHEIGHT STATUS</td>
+              </tr>
+              <tr>
+                <td class="borda-right">Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td class="borda-right">18.5 - 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td class="borda-right">25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td class="borda-right">30.0 - and Above</td>
+                <td>Obese</td>
+              </tr>
+            </tbody>
+          </table>
+          <span id="imc"></span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="title-final">
+        <img src="componentes/kropp-footer-logo.png.png" alt="" />
+        <p>
+          please feel free to send us an e-mail at kropp@qodeinteractive.com
+          <br />For any additional inquiries
+        </p>
+      </div>
+      <div class="final">
+        <div>
+          <h3>ABOUT</h3>
+          <p>
+            Shape up your site with Kropp a themeespeciallymade for <br />
+            fitness & gym websites.
+          </p>
+        </div>
+
+        <div>
+          <h3>WORKING HOURS</h3>
+          <p>monday - Friday</p>
+          <p>05:30 - 24:00</p>
+
+          <p>Weekdays</p>
+          <p>00:00 - 24:00</p>
+        </div>
+
+        <div>
+          <h3>LOCATION</h3>
+          <p>68 Jay Street, Brooklyn, NY 11201, United States</p>
+          <p>kropp@qodeinteractive.com</p>
+          <p>+(1) 718 - 407 - 6400</p>
+        </div>
+
+        <div>
+          <nav>
+            <h3>LINKS</h3>
+            <a href="#home" data-scroll>HOME</a>
+            <a href="#portifolio" data-scroll>PORTIFOLIO</a>
+            <a href="#video" data-scroll>MOTIVATIONAL</a>
+            <a href="#subscribe" data-scroll>SUBSCRIBE</a>
+            <a href="#map-text" data-scroll>LOCATION</a>
+            <a href="#carrossel"data-scroll>PHOTOS</a>
+            <a href="#bmi" data-scroll>BMI</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright"></div>
+  </body>
+</html>
