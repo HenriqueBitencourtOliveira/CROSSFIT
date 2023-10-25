@@ -24,7 +24,7 @@
   <body>
     <header>
       <a href="index.html"><img src="componentes/header-logo-kropp.png.png" alt=""></a>
-      <nav>
+      <nav class="menu">
         <a href="#portifolio" data-scroll>PORTIFOLIO</a>
         <a href="#video" data-scroll>MOTIVATIONAL</a>
         <a href="#subscribe" data-scroll>SUBSCRIBE</a>
@@ -32,9 +32,14 @@
         <a href="#carrossel" data-scroll>PHOTOS</a>
         <a href="#bmi" data-scroll>BMI</a>
       </nav>
+      <div class="menu-icon" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M5,8c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,23c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175zM5,38c-0.72127,-0.0102 -1.39216,0.36875 -1.75578,0.99175c-0.36361,0.623 -0.36361,1.39351 0,2.01651c0.36361,0.623 1.0345,1.00195 1.75578,0.99175h40c0.72127,0.0102 1.39216,-0.36875 1.75578,-0.99175c0.36361,-0.623 0.36361,-1.39351 0,-2.01651c-0.36361,-0.623 -1.0345,-1.00195 -1.75578,-0.99175z"></path></g></g>
+          </svg>
+    </div>
     </header>
 
-    <main>
+     <main>
       <section id="home">
         <div class="text-focus-in">
           <div class="text-new-event">
@@ -128,6 +133,8 @@
         </div>
       </section>
 
+      
+
       <section id="video">
         <div class="video">
           <iframe
@@ -135,6 +142,7 @@
             width="800"
             height="500"
             frameborder="0"
+            allowfullscreen
           ></iframe>
         </div>
       </section>
@@ -238,6 +246,8 @@
           </div>
         </div>
       </section>
+
+      
 
       <section id="bmi">
         <div class="left-bmi">

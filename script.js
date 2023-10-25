@@ -48,6 +48,11 @@ carousel.addEventListener("mouseleave", dragStop);
 
 
 
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
+
 
 
 let altura = document.getElementById('altura')
